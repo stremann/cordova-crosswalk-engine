@@ -120,7 +120,8 @@ public class XWalkCordovaResourceClient extends XWalkResourceClient {
                 callback.onReceiveValue(true);
             } else {
                 // debug = false
-                callback.onReceiveValue(false);
+                // callback.onReceiveValue(false);
+                callback.onReceiveValue(true);
             }
         } catch (PackageManager.NameNotFoundException e) {
             // When it doubt, lock it out!
